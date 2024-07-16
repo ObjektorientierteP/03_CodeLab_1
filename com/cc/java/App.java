@@ -42,9 +42,9 @@ public class App {
         konto2.setKontostand(konto2.getKontostand() * 3);
         konto3.setKontostand(konto3.getKontostand() * 4);
 
-        output("Konto 1 Anfangbestand = " + konto1.getKontostand());
-        output("Konto 2 Anfangbestand = " + konto2.getKontostand());
-        output("Konto 3 Anfangbestand = " + konto3.getKontostand());
+        output("Konto 1 Aktuelle Kontobestand = " + konto1.getKontostand());
+        output("Konto 2 Aktuelle Kontobestand = " + konto2.getKontostand());
+        output("Konto 3 Aktuelle Kontobestand = " + konto3.getKontostand());
 
     }
 
