@@ -2,7 +2,11 @@ package com.cc.java;
 
 public class Konto{
 
-    private int kontostand = 10000;
+    private int kontostand;
+
+    public Konto(int value) {
+        this.kontostand = value;
+    }
 
     // Setter
     public int getKontostand() {
